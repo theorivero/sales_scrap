@@ -18,8 +18,8 @@ collection = db['handles_linkedin']
 options =  webdriver.ChromeOptions()
 options.add_argument("--disable-notification")
 driver=webdriver.Chrome("/home/theorivero/Documents/Projects/sales_scrap/chromedriver_linux64/chromedriver",chrome_options=options)
-email = 'helenilson@yeahsolucoes.com.br'
-pswd = 'intexfy@helenilson'
+email = 'email@email.com.br'
+pswd = 'senha'
 industry = 32
 url =f"https://www.linkedin.com/sales/search/company?geoIncluded=br%3A0&industryIncluded={industry}&page=1&searchSessionId=yF2kKErBQ5i9Xb9JGMFI%2Bg%3D%3D"
 
